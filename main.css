@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,400;1,200&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+h1{
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.h1{
+    font-family: 'Libre Franklin', sans-serif; 
+}
+img{
+    width: 30px;
+}
+a{
+color: rgb(51, 35, 17);
+font-size: 20px;
+}
+.p{
+   color: rgb(13, 2, 2);
+   font-size: 20px;
+}
+text{
+    color:#A64A00;
+}
+.q {
+    width: 500px;
+}
+.uroki{
+  width: 300px;
+}
+body{
+    background-color: rgb(228, 206, 236);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.imgurl{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.font{
+    font-weight: 900;
+}
+.qwerty{
+    background: grey;
+}
+.h1work{
+    font-weight: 900;
+    font-size: 40px;
+    color:red;
+
+    font-family: 'Roboto', sans-serif;
+}
+.h2work{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-align: right;
+    font-size: 30px;
+
+}
+.pwork{
+    font-weight: 200;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+span{
+    color: red
+}
+.h1work:hover{
+    color: blue;
+}
