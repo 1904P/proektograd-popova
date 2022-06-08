@@ -7,10 +7,12 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 .h1{
+   line-height: 200%; 
     font-family: 'Libre Franklin', sans-serif; 
 }
 img{
     width: 30px;
+    border: 5px bottom red;
 }
 a{
 color: rgb(51, 35, 17);
@@ -29,12 +31,12 @@ text{
 .uroki{
   width: 300px;
 }
-body{
+/* body{
     background-color: rgb(228, 206, 236);
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-}
+} */
 .imgurl{
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -48,8 +50,8 @@ body{
     font-weight: 900;
     font-size: 40px;
     color:red;
-
     font-family: 'Roboto', sans-serif;
+    text-decoration: line-through;
 }
 .h2work{
     font-family: 'Libre Franklin', sans-serif;
@@ -58,20 +60,49 @@ body{
     text-decoration: overline;
     text-align: right;
     font-size: 30px;
-
 }
-.pwork{
+ .pwork{
     font-weight: 200;
     text-decoration: underline;
     text-align: left;
     font-size: 20px;
     color: blue;
     font-family: 'Libre Franklin', sans-serif;
-
+} 
+ strong{
+    color:blueviolet
+} 
+.day{
+    letter-spacing: 400%;
 }
-span{
-    color: red
-}
-.h1work:hover{
+button{
     color: blue;
+    width:100px ;
+    background-color: bisque;
 }
+button:hover{
+    color: blue;
+    width: 100px;
+    background-color: #A64A00;
+}
+.okno{
+    border: 5px solid greenyellow;
+    width: 45%;
+    /* margin:  50px 50px 50px 50px;
+    padding: 20px 20px 20px 50px; */
+    height: 60px;
+    display: inline-block;
+    
+} 
+.okno2{
+    border: 2px solid red;
+    width: 45%;
+    /* margin:  50px 50px 50px 50px;
+    padding: 20px 20px 20px 50px; */
+    height: 100ПШЕ px;
+    margin-top: 20px; 
+position: absolute;
+    top: 0;
+    display: inline-block;
+    left: 50;
+} 
