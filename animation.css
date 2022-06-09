@@ -1,4 +1,4 @@
-@keyframes sdvig {
+/* @keyframes sdvig {
    from {
 left:0px;
     top: 0px;
@@ -11,22 +11,17 @@ left:0px;
     top: 300px; 
     width: 100px; height: 100px;
     transform:scale(2);
-    transform: rotate(360deg);
-
-}
-}
+    transform: rotate(360deg);}
+} */
 
 
-
-
-.cube{
-    background-color: blue;
-    color: azure;
-    height: 100px;
-    position: absolute;
-    left:50px;
-    top:50px;
-    animation:sdvig 3s ease-in infinite alternate-reverse;
-    position:absolute;
-    transform: rotate(2);
+@keyframes fadeRight{
+    from{
+        left: -100px;;
+        opacity: 0.0;
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
 }
